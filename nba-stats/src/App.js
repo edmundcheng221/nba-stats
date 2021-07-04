@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import axios from "axios";
+import Navbar from './components/Navbar';
 
 class App extends Component {
+  
   constructor(props){
     super(props)
     this.state={
@@ -55,6 +57,7 @@ handleChange = (event) => {
   render(){
   return (
     <div className="App">
+      <Navbar />
      <form onSubmit={this.handleSubmit}>
        <label>
          Name
@@ -74,6 +77,7 @@ handleChange = (event) => {
      rebounds averaged: {this.state.playerStats["reb"]}
      <br />
      assists averaged: {this.state.playerStats["ast"]}
+     
     </div>
   );
 }
