@@ -16,4 +16,14 @@ Install dependencies:
 
 Start server locallly at localhost 3000:
 
+clone repo:
+
+`git clone https://github.com/edmundcheng221/nba-stats.git`
+
+Navigate to nba-stats directory:
+
+`cd ~/nba-stats`
+
+Start the server:
+
 `npm start`
